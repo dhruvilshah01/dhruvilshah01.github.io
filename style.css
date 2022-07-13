@@ -66,7 +66,6 @@ button {
 
 } 
  
-
 button:active {
     background: #4b14f0;
     -webkit-box-shadow: inset 0px 0px 10px #c1c1c1;
