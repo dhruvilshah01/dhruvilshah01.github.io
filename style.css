@@ -147,7 +147,19 @@ button:active {
     display: flex; 
     flex-direction: row; 
     justify-content: space-between;
-}
+} 
+
+@media (min-width: 576px) {
+    .projects-container {
+      flex-direction: column;
+    } 
+}  
+
+@media (min-width: 1024px) {
+    .projects-container {
+      flex-direction: row;
+    } 
+} 
 
 .etch { 
     height: 150px;  
@@ -157,7 +169,15 @@ button:active {
     box-shadow: 0px 3px 8px  hsl(255, 83%, 56%); 
     transition: all 300ms ease-in-out; 
     border-radius: 6px;  
-}  
+}   
+
+
+@media (min-width: 576px) {
+    .etch {  
+      width: 100%;
+    } 
+} 
+
 
 .etch:hover { 
     box-shadow: 0px 8px 30px  hsl(255, 83%, 56%);;
@@ -171,6 +191,19 @@ button:active {
     box-shadow: 0px 3px 8px  hsl(255, 83%, 56%); 
     transition: all 300ms ease-in-out; 
     border-radius: 6px;
+}  
+
+@media (min-width: 576px) {
+    .visualizer { 
+      margin-top: 10%;
+      width: 100%;
+    } 
+} 
+
+@media (min-width: 1024px) {
+    .visualizer {  
+      margin-top: 0%;
+    } 
 }
 
 .visualizer:hover { 
@@ -186,6 +219,19 @@ button:active {
     transition: all 300ms ease-in-out; 
     border-radius: 6px;
 }   
+
+@media (min-width: 576px) {
+    .gis { 
+      margin-top: 10%;
+      width: 100%;
+    } 
+} 
+
+@media (min-width: 1024px) {
+    .gis {  
+      margin-top: 0%;
+    } 
+}
 
 .gis:hover { 
     box-shadow: 0px 8px 30px  hsl(255, 83%, 56%);;
