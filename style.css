@@ -149,7 +149,7 @@ button:active {
     justify-content: space-between;
 } 
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .projects-container {
       flex-direction: column;
     } 
@@ -172,7 +172,7 @@ button:active {
 }   
 
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .etch {  
       width: 100%;
     } 
@@ -193,7 +193,7 @@ button:active {
     border-radius: 6px;
 }  
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .visualizer { 
       margin-top: 10%;
       width: 100%;
@@ -220,7 +220,7 @@ button:active {
     border-radius: 6px;
 }   
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
     .gis { 
       margin-top: 10%;
       width: 100%;
